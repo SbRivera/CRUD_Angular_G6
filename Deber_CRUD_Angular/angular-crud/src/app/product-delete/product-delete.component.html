@@ -1,0 +1,13 @@
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Delete Product</h2>
+
+<div *ngIf="product" class="space-y-4">
+  <p class="text-lg text-gray-700">Are you sure you want to delete the product "{{ product.name }}"?</p>
+  <button (click)="deleteProduct()" class="py-2 px-4 bg-red-600 text-white font-medium rounded-md hover:bg-red-700">Yes, Delete</button>
+  <button (click)="cancel()" class="py-2 px-4 bg-gray-600 text-white font-medium rounded-md hover:bg-gray-700">Cancel</button>
+</div>
+
+<div *ngIf="!product" class="text-lg text-gray-700">
+  <p>Loading...</p>
+</div>

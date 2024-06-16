@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product uno",
+      "price": "5000"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 200
+    },
+    {
+      "id": "3",
+      "name": "Mesa",
+      "price": "123"
+    },
+    {
+      "id": "4",
+      "name": "Silla",
+      "price": "50"
+    },
+    {
+      "id": "5",
+      "name": "Sillon",
+      "price": "50"
+    },
+    {
+      "id": "6",
+      "name": "Colchon",
+      "price": "50"
+    },
+    {
+      "id": "",
+      "name": "Sillon",
+      "price": "50"
+    }
+  ]
+}
